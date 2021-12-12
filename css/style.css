@@ -1,1 +1,48 @@
+/*global */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+
+body{
+    background-color: black;
+    color:white;
+    font-family: "Roboto",sans-serif;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px; /**pone espacio entre letras */
+}
+a{
+    text-decoration: none; /**Quita las lineas debajo de los links */
+}
+/*utlities*/
+.read-btn{
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 700;
+
+}
+/*menu*/
+nav {
+    height: 50px;
+    background-color: white;
+}
+img.big-logo{
+    height: 40px;
+}
+img.small-logo{
+    display: none;
+    height: 40px;
+
+}
+/**main news */
+.main-new-item{
+    background-image: url(../img/portada.jpg);
+    height: 350px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
